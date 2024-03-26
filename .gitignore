@@ -1,0 +1,16 @@
+/**/node_modules/
+*.log
+npm-debug.log*
+/**/lib/
+/npm/*
+
+_templates
+
+## Mac ##
+.DS_Store
+
+# Git
+/**/*.orig
+/**/*.rej
+/**/.editorconfig
+/.metadata/
