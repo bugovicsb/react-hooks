@@ -8,10 +8,10 @@ import UsersListWithContrast from "./UsersListWithContrast";
 const App = () => {
   return (
     <div className="App">
-      {/* <UsersList /> */}
+      <UsersList />
       {/* <UsersListClass /> */}
       {/* <UsersListWithSelect /> */}
-      <UsersListWithContrast />
+      {/* <UsersListWithContrast /> */}
     </div>
   );
 };
