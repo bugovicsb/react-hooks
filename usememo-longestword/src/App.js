@@ -5,7 +5,7 @@ import "./styles.css";
 
 const App = () => (
   <div className="App">
-    {/* <Demo /> */}
+    <Demo />
     <hr />
     <DemoUseMemo />
   </div>
