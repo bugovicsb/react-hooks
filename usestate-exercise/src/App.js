@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import Button from "./components/Button";
 import "./styles.css";
 
 const App = () => {
-  const [on, setOn] = useState(false);
   return (
     <div>
-      <Button isOn={on} onClick={() => setOn((val) => !val)} />
+      <Button isOn={false} onClick={() => {}} />
     </div>
   );
 };
