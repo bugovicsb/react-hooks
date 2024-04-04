@@ -12,10 +12,6 @@ const Coords = () => {
     };
 
     window.addEventListener("mousemove", handler);
-
-    return () => {
-      window.removeEventListener("mousemove", handler);
-    };
   }, []);
 
   return (
